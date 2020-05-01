@@ -26,8 +26,13 @@ namespace Check_Boxes_3._2
         private void closeApplication(object sender, EventArgs e)
         {
             Application.Exit();
-        }   
+        }
 
+        /// <summary>
+        /// This adds 2.5 onto the total cost if 
+        /// the topping is selected, and minuses
+        /// 2.5 if deselected.
+        /// </summary>
         private void toppingOneSelected(object sender, EventArgs e)
         {
             if (toppingOneCheckBox.Checked)
@@ -41,7 +46,12 @@ namespace Check_Boxes_3._2
                 costLabel.Text = "£" + amount.ToString();
             }
         }
-        
+
+        /// <summary>
+        /// This adds 2.5 onto the total cost if 
+        /// the topping is selected, and minuses
+        /// 2.5 if deselected.
+        /// </summary>
         private void toppingTwoSelected(object sender, EventArgs e)
         {
             if (toppingTwoCheckBox.Checked)
@@ -56,6 +66,11 @@ namespace Check_Boxes_3._2
             }
         }
 
+        /// <summary>
+        /// This adds 2.5 onto the total cost if 
+        /// the topping is selected, and minuses
+        /// 2.5 if deselected.
+        /// </summary>
         private void toppingThreeSelected(object sender, EventArgs e)
         {
             if (toppingThreeCheckBox.Checked)
@@ -70,6 +85,11 @@ namespace Check_Boxes_3._2
             }
         }
         
+        /// <summary>
+        /// This adds 2.5 onto the total cost if 
+        /// the topping is selected, and minuses
+        /// 2.5 if deselected.
+        /// </summary>
         private void toppingFourSelected(object sender, EventArgs e)
         {
             if (toppingFourCheckBox.Checked)
